@@ -1,0 +1,54 @@
+:root {
+    background: #EAF4F9;
+}
+
+
+body {
+    background-color: var(-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 10px 10px 10px gray;
+    height: 35vh;
+    width: 30vh;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+input{
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.1rem;
+}
+
+.forgot{
+    transform: translate(35%, -210%)
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #3598DB;
+    color: white;
+}
